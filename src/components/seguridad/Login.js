@@ -48,7 +48,7 @@ const Login = () => {
                 <Link
                 to="/registrar"
                 variant="body1"
-                className={classes.link}                >
+                className={classes.link}>
                     ¿No tienes cuenta? Regístrate
                 </Link>
             </form>
