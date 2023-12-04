@@ -56,6 +56,14 @@ const MenuNavBar = () => {
                             </Link>
                         </Button>
                     </div>
+                    <div className={classes.sectionDesktop}>
+                        <Button color='inherit' className={classes.buttonIcon}>
+                            <Link to='/pedido' color='inherit' underline='none' className={classes.linkAppNavBarDesktop}>
+                                <Icon className={classes.mr}>list_alt</Icon>
+                                PEDIDO
+                            </Link>
+                        </Button>
+                    </div>
                 </Toolbar>
             </Container>
         </AppBar>
